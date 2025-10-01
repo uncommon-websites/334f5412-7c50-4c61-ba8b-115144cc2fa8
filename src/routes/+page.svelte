@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Ship features faster with zero coordination overhead"
+	subtitle="Automated status updates and context sharing give your engineering team more time for deep work. Reclaim 15 hours per month from status meetings."
+	imageSrc="/generated/image-a-software-engineer-sits-at-a-tidy-desk-.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Start 2-week pilot"
+		},
+		{
+			href: "/about",
+			label: "How it works"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by high-performing engineering teams"
+	logoUrls={[
+		'https://cdn.brandfetch.io/vercel.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/supabase.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/resend.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/raycast.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
