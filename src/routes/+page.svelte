@@ -106,5 +106,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Reclaim 5+ hours in your first week"
+	subtitle="Risk-free 2-week pilot"
+	description="Your team ships faster when coordination happens automatically. Start your pilot today and watch status meetings disappear while velocity increases. No commitment required."
+	imageSrc="/generated/image-a-cheerful-software-engineer-sits-at-a-t.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Start 2-week pilot",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>
