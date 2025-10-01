@@ -42,54 +42,67 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Chandrasekaran",
+			position: "Senior Software Engineer",
+			company: "Basecamp",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I reclaimed 12 hours per week that I used to spend in status meetings and writing updates. Now I actually have time to solve hard problems and ship features that matter.",
+			image: "/generated/image-headshot-of-a-professional-asian-woman-w.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Amir Rostami",
+			position: "Engineering Lead",
+			company: "Notion",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Our team of 8 engineers saved $47,000 annually by eliminating coordination overhead. The 2-week pilot proved ROI immediately when our sprint velocity increased by 40%.",
+			image: "/generated/image-headshot-of-a-professional-middle-easter.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Keisha Thompson",
+			position: "Staff Engineer",
+			company: "Linear",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I was skeptical about another tool, but this cut my context-switching by 60%. No more Slack interruptions asking for status updates. I finished our Q1 roadmap 3 weeks early.",
+			image: "/generated/image-headshot-of-a-professional-black-woman-w.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for deep work, not coordination overhead"
+	subtitle="Every feature is designed to eliminate interruptions and give your team more time for high-impact work"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Automated status updates",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Your work progress automatically surfaces to stakeholders without writing a single update. Eliminate 15+ hours of status meetings every month and stay in flow."
 		},
 		{
-			title: "Data Analysis",
+			title: "Instant context sharing",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Team members get the full context they need without interrupting you. No more Slack messages asking 'what's the status on this?'"
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Deep work protection",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Your focus time is sacred and automatically protected from coordination requests. Reclaim 5+ hours weekly for the work that actually moves the needle."
+		},
+		{
+			title: "Real-time sync",
+			description:
+				"Code commits, PR reviews, and deployment status sync automatically across your tools. Your team always has the latest information without manual updates."
+		},
+		{
+			title: "Team visibility dashboard",
+			description:
+				"Engineering managers see progress across all projects at a glance. ICs ship features faster while leadership stays informed without status meetings."
+		},
+		{
+			title: "Smart notification filters",
+			description:
+				"Only get interrupted for what truly matters. Intelligent filtering learns your priorities and eliminates notification noise that breaks your concentration."
 		}
 	]}
 />
